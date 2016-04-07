@@ -1,0 +1,53 @@
+#wrapper {
+	width: 300px;
+	margin: 0px auto;
+}
+#add_form {
+	border-top: 1px solid gray;
+}
+	.title {
+		width: 250px;
+		margin: 10px 0px;
+	}
+
+.note_box {
+	border-top: 1px solid gray;	
+}
+.box_content {
+	display: inline-block;
+	width: 250px;
+}
+	.note {
+		margin-bottom: 10px;
+		padding: 5px;
+		width: 250px;
+		height: 200px;
+		border: 1px solid gray;
+		overflow-y: scroll;
+		
+	}
+	.note p {
+		margin: 0px;
+	}
+	.blank {
+		color: gray;
+	}
+	.delete {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 20px;
+	}
+	.delete_button {
+		background-color: white;
+		border: none;
+		padding: 0px;
+		margin: 0px;
+		color: blue;
+		font-weight: bold;
+	}
+	.update_button {
+		display: none;
+	}
+
+.edit {
+}
